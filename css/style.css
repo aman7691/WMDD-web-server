@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Mukta&display=swap");
+
+body {
+  background-color: rgba(220, 220, 220, 0.6);
+  line-height: 1.5;
+  font-family: "Mukta", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: red;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* =================================================> Profile section */
+.headerName {
+  display: grid;
+  grid-template-columns: 10% 40%;
+}
+
+.headerName h3 {
+  font-size: 1.5rem;
+}
+
+.headerName a {
+  text-decoration: none;
+  color: black;
+}
+.spanName {
+  color: rgb(27, 170, 122);
+}
+
+#profile h2 {
+  margin-bottom: 0;
+}
+
+#profile p {
+  margin-top: 0;
+}
+.navDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navDiv a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ====================================================> Circle Section */
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(247, 215, 58);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.dot1 {
+  background-color: rgb(227, 186, 38);
+}
+
+.dot2 {
+  background-color: rgb(227, 63, 38);
+}
+
+.dot3 {
+  background-color: rgb(38, 205, 227);
+}
+
+.dot4 {
+  background-color: rgb(105, 233, 122);
+}
+
+.dot5 {
+  background-color: rgb(126, 120, 208);
+}
+
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5 {
+  width: 80px;
+  height: 80px;
+  line-height: 75px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+  margin-top: 1rem;
+}
+section {
+  padding: 10px;
+}
+
+.main h2 {
+  border-top: 1px dotted black;
+  margin-bottom: 30px;
+  color: red;
+}
+section {
+  padding: 10px;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+footer {
+  border-top: 1px dotted black;
+  text-align: center;
+}
+footer p {
+  color: red;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.socialMedia {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+.socialMedia p {
+  text-align: center;
+  color: red;
+}
+
+.socialMedia ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* =======================================================> Hover Section*/
+
+.fa-brands {
+  padding: 10px;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.fa-brands:hover {
+  color: red;
+  font-size: 2rem;
+}
+
+.dot1:hover {
+  background-color: rgb(247, 247, 161);
+  font-size: 20px;
+  color: black;
+}
+.dot2:hover {
+  background-color: rgb(240, 203, 135);
+  font-size: 20px;
+  color: black;
+}
+
+.dot3:hover {
+  background-color: rgb(213, 241, 172);
+  font-size: 20px;
+  color: black;
+}
+.dot4:hover {
+  background-color: greenyellow;
+  font-size: 20px;
+  color: black;
+}
+
+.dot5:hover {
+  background-color: purple;
+  font-size: 20px;
+  color: black;
+}
+
+/* =======================================================> */
+
+@media only screen and (min-width: 600px) {
+  body{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .headerName h3 {
+    font-size: 1.2rem;
+  }
+
+  .headerName {
+    grid-template-columns: 5% 20%;
+  }
+
+  .dot {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  #profile {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap: 1rem;
+    margin: 50px;
+    border-bottom: 1px black dotted;
+    padding-left: 200px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    margin-bottom: 0px;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px dotted black;
+    padding: 50px;
+  }
+
+  .main h2 {
+    border: 0;
+  }
+
+  .img {
+    grid-row: 1/2;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
